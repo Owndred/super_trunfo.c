@@ -6,6 +6,7 @@ int main(){
 
     char codigo_carta[4];     
     char estado[20]; 
+    char nome[20];
     int populacao; 
     float area;
     float pib;
@@ -31,7 +32,7 @@ int main(){
     printf("Digite o estado: \n");
     scanf("%s", estado);
 
-    printf("Digite a população: \n");
+    printf("Digite a populaç?o: \n");
     scanf("%d", &populacao);
     
     printf("Digite a área \n");
@@ -57,7 +58,7 @@ int main(){
 
 
 
-    printf("Cadastre a segunda carta (não utilizar nomes compostos) \n");
+    printf("Cadastre a segunda carta (n?o utilizar nomes compostos) \n");
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", nome2);
@@ -68,7 +69,7 @@ int main(){
     printf("Digite o estado: \n");
     scanf("%s", estado2);
     
-    printf("Digite a população: \n");
+    printf("Digite a populaç?o: \n");
     scanf("%d", &populacao2);
     
     printf("Digite a área \n");
@@ -92,4 +93,3 @@ int main(){
 
     return 0;
 }
-
